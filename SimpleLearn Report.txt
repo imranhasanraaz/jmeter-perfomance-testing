@@ -1,0 +1,20 @@
+Extract data for reporting in jmeter
+============================================
+Dear SimpleLearn, 
+
+I’ve completed performance test on frequently used API for test App.
+Test executed for the below mentioned scenario in 
+1.(HOME Page) https://www.simplilearn.com/  =>
+	(RESOURCES Page) https://www.simplilearn.com/resources  =>
+		(BUSINESS Page) https://www.simplilearn.com/business  =>
+			(INSTRUCTOR Page)  https://www.simplilearn.com/become-our-trainer  =>
+				(PARTNERS Page)  https://www.simplilearn.com/reseller-partner-program-for-training-courses 
+
+200 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 2.7 And Total Concurrent API requested: 1000.
+300 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 4.4 And Total Concurrent API requested: 1500.
+400 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 8 And Total Concurrent API requested: 2000.
+
+
+While executed 400 concurrent request, found  7 request got connection timeout and error rate is 0.35%.
+
+Summary: Server can handle almost concurrent 300 API call with almost zero (0) error rate.
