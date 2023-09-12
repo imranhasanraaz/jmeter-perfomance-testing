@@ -7,6 +7,9 @@
 - [Prerequisites](https://github.com/imranhasanraaz/jmeter-perfomance-testing#prerequisites)
 - [Elements of a Minimal Test Plan](https://github.com/imranhasanraaz/jmeter-perfomance-testing#Elements-of-a-minimal-test-plan)    
 - [Test Plan](https://github.com/imranhasanraaz/jmeter-perfomance-testing#test-plan)
+- [Collection of API](https://github.com/imranhasanraaz/jmeter-perfomance-testing#collection-of-api)   
+    - [List of API](https://github.com/imranhasanraaz/jmeter-perfomance-testing#list-of-api) 
+    - [Load the JMeter Script](https://github.com/imranhasanraaz/jmeter-perfomance-testing#load-the-jmeter-script) 
 
 # Load testing Report
 
@@ -64,4 +67,37 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 - Name: Users
 - Number of Threads (users): 200 to 400
 - Ramp-Up Period (in seconds): 1
-- Loop Count: 1  
+- Loop Count: 1
+
+  1) The general setting for the tests execution, such as whether Thread Groups will run simultaneously or sequentially, is specified in the item called Test Plan.
+
+  2) All HTTP Requests will use some default settings from the HTTP Request, such as the Server IP, Port Number, and Content-Encoding.
+
+  3) Each Thread Group specifies how the HTTP Requests should be carried out. To determine how many concurrent "users" will be simulated, one must first know the number of threads. The number of actions each "user" will perform is determined by the loop count.
+
+  4) The HTTP Header Manager, which allows you to provide the Request Headers that will be utilized by the upcoming HTTP Requests, is the first item in Thread Groups.
+
+# Collection of API
+
+- Run BlazeMeter  
+- Collect Frequently used API  
+- Save JMX file then paste => **apache-jmeter-5.6.2\bin**
+
+    ### List of API 
+
+    - [https://www.simplilearn.com/](https://www.simplilearn.com/)
+    - [https://www.simplilearn.com/resources](https://www.simplilearn.com/resources)
+    - [https://www.simplilearn.com/business](https://www.simplilearn.com/business)
+    - [https://www.simplilearn.com/become-our-trainer](https://www.simplilearn.com/become-our-trainer)
+    - [https://www.simplilearn.com/reseller-partner-program-for-training-courses](https://www.simplilearn.com/reseller-partner-program-for-training-courses)
+
+   **OR**
+    
+  ### Load the JMeter Script 
+   - File > Open (CTRL + O)
+   - Locate the "simpleLearn_u200.jmx" file contained on this repo
+   - Continue open simpleLearn_u200.jmx to simpleLearn_u400.jmx
+   - Open those file
+   - The Test Plan will be loaded
+   
+   ![c](https://user-images.githubusercontent.com/92669932/189541560-025b250b-b00e-46a1-9b55-c4ed4f7835ec.jpg)
