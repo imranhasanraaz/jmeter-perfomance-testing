@@ -101,4 +101,29 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
    - The Test Plan will be loaded
 ![loadjmx](https://github.com/imranhasanraaz/jmeter-perfomance-testing/assets/110620143/8cc4198b-ab6e-4231-bd38-693ff3a99da7)
 
+
+# Test execution (from the Terminal)
+ 
+- JMeter should be initialized in non-GUI mode.
+- Make a report folder in the **bin** folder.  
+- Run Command in __jmeter\bin__ folder.
+
+ ### Make jtl file
+
+```bash
+  jmeter -n -t  simpleLearn_u200.jmx -l simpleLearn_u200.jtl
+```      
+  Then continue to upgrade Threads(200 to 400) by keeping Ramp-up Same.   
+
+After completing this command  
+   ### Make html file   
+  
+  ```bash
+  jmeter -g report\simpleLearn_u200.jtl -o simpleLearn_u200.html
+```
+  - **g**: jtl results file
+
+  - **o**: path to output folder
+  - \
+    ![Capture](https://github.com/imranhasanraaz/jmeter-perfomance-testing/assets/110620143/eedfa7ad-4c4b-4bf2-9849-c2e2be8d3d0c)  
   
