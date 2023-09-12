@@ -126,4 +126,23 @@ After completing this command
   - **o**: path to output folder
   - \
     ![Capture](https://github.com/imranhasanraaz/jmeter-perfomance-testing/assets/110620143/eedfa7ad-4c4b-4bf2-9849-c2e2be8d3d0c)  
-  
+
+# HTML Report
+
+**Number of Threads 200 ; Ramp-Up Period 1s**
+
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![1](https://github.com/imranhasanraaz/jmeter-perfomance-testing/assets/110620143/920735d6-5aa3-44d9-bb70-5740c1e942f7)  |  ![2](https://github.com/imranhasanraaz/jmeter-perfomance-testing/assets/110620143/38ffa17b-1912-4d18-a32b-719b9b705e3a)
+
+**Number of Threads 300 ; Ramp-Up Period 11s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![3](https://github.com/imranhasanraaz/jmeter-perfomance-testing/assets/110620143/d1bf207c-3927-48d4-a9c4-449b4689047c) |  ![4](https://github.com/imranhasanraaz/jmeter-perfomance-testing/assets/110620143/05daa31b-aece-4474-9ea9-b79c9a63bf63)
+
+**Number of Threads 400 ; Ramp-Up Period 1s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![5](https://github.com/imranhasanraaz/jmeter-perfomance-testing/assets/110620143/bb07a2f1-677a-4bea-b551-262769e23620)  |  ![6](https://github.com/imranhasanraaz/jmeter-perfomance-testing/assets/110620143/d8ff121d-8b61-4f34-91ca-9d16d7aae12d)
