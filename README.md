@@ -9,7 +9,10 @@
 - [Test Plan](https://github.com/imranhasanraaz/jmeter-perfomance-testing#test-plan)
 - [Collection of API](https://github.com/imranhasanraaz/jmeter-perfomance-testing#collection-of-api)   
     - [List of API](https://github.com/imranhasanraaz/jmeter-perfomance-testing#list-of-api) 
-    - [Load the JMeter Script](https://github.com/imranhasanraaz/jmeter-perfomance-testing#load-the-jmeter-script) 
+    - [Load the JMeter Script](https://github.com/imranhasanraaz/jmeter-perfomance-testing#load-the-jmeter-script)
+- [Make jtl File](https://github.com/imranhasanraaz/jmeter-perfomance-testing#make-jtl-file)  
+- [Make html File](https://github.com/imranhasanraaz/jmeter-perfomance-testing#make-html-file)  
+- [HTML Report](https://github.com/imranhasanraaz/jmeter-perfomance-testing#html-report) 
 
 # Load testing Report
 
