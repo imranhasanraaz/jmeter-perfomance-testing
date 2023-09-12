@@ -5,6 +5,8 @@
 - [Introduction](https://github.com/imranhasanraaz/jmeter-perfomance-testing#introduction)  
 - [Install](https://github.com/imranhasanraaz/jmeter-perfomance-testingstall)      
 - [Prerequisites](https://github.com/imranhasanraaz/jmeter-perfomance-testing#prerequisites)
+- [Elements of a Minimal Test Plan](https://github.com/imranhasanraaz/jmeter-perfomance-testing#Elements-of-a-minimal-test-plan)    
+- [Test Plan](https://github.com/imranhasanraaz/jmeter-perfomance-testing#test-plan)
 
 # Load testing Report
 
@@ -42,3 +44,24 @@ https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbo
 - As of JMeter 5.6, Java 8 and above are supported.
 - we suggest  multicore cpus with 4 or more cores.
 - Memory 16GB RAM is a good value.
+
+
+# Elements of a minimal test plan
+- Thread Group
+
+    The root element of every test plan. Simulates the (concurrent) users and then run all requests. Each thread simulates a single user.
+
+- HTTP Request Default (Configuration Element)
+
+- HTTP Request (Sampler)
+
+- Summary Report (Listener)
+
+# Test Plan
+
+Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on the jMeter version you are using)
+
+- Name: Users
+- Number of Threads (users): 200 to 400
+- Ramp-Up Period (in seconds): 1
+- Loop Count: 1  
